@@ -1,0 +1,14 @@
+C:\NguyenThuyTien_C#\nguyenthuytien_cf\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe.config
+C:\NguyenThuyTien_C#\nguyenthuytien_cf\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe
+C:\NguyenThuyTien_C#\nguyenthuytien_cf\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.pdb
+C:\NguyenThuyTien_C#\nguyenthuytien_cf\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csproj.AssemblyReference.cache
+C:\NguyenThuyTien_C#\nguyenthuytien_cf\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.Login.resources
+C:\NguyenThuyTien_C#\nguyenthuytien_cf\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.Properties.Resources.resources
+C:\NguyenThuyTien_C#\nguyenthuytien_cf\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csproj.GenerateResource.cache
+C:\NguyenThuyTien_C#\nguyenthuytien_cf\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csproj.CoreCompileInputs.cache
+C:\NguyenThuyTien_C#\nguyenthuytien_cf\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.exe
+C:\NguyenThuyTien_C#\nguyenthuytien_cf\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb
+C:\NguyenThuyTien_C#\nguyenthuytien_cf\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.TableManager.resources
+C:\NguyenThuyTien_C#\nguyenthuytien_cf\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.Admin.resources
+C:\NguyenThuyTien_C#\nguyenthuytien_cf\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.UserManager.resources
+C:\NguyenThuyTien_C#\nguyenthuytien_cf\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.Help.resources

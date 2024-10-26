@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Phần mềm quản lý quán cafe giúp bạn dễ dàng theo dõi và quản lý các hoạt động kinh doanh tại quán, từ việc quản lý bàn, gọi món, cho đến theo dõi doanh thu và quản lý nhân viên. Dưới đây là một số hướng dẫn cơ bản:
+      1.  Quản Lý Bàn: Giao diện chính hiển thị danh sách các bàn trong quán. Bạn có thể chọn bàn, thực hiện gọi món, chuyển bàn, gộp bàn hoặc thanh toán khi khách hàng yêu cầu.
+      2.  Quản Lý Món: Dễ dàng thêm, chỉnh sửa hoặc xóa các món ăn, đồ uống trong thực đơn. Phần mềm cũng hỗ trợ cập nhật giá bán và phân loại món theo nhóm như đồ uống, đồ ăn nhẹ, v.v.
+      3.  Quản Lý Nhân Viên: Bạn có thể theo dõi danh sách nhân viên, phân quyền quản lý, và ghi nhận ca làm việc của từng nhân viên. Điều này giúp việc theo dõi hiệu suất và tính lương trở nên dễ dàng hơn.
+      4.  Doanh Thu và Báo Cáo: Phần mềm cung cấp các báo cáo chi tiết về doanh thu theo ngày, tuần, tháng hoặc theo từng nhân viên. Bạn có thể xuất báo cáo ra file Excel để dễ dàng theo dõi và đối chiếu.
+      5.  Đăng Xuất và Bảo Mật: Để bảo mật thông tin, phần mềm yêu cầu đăng nhập trước khi truy cập các tính năng quản lý. Bạn có thể đăng xuất khi không sử dụng hoặc chuyển đổi tài khoản quản lý.
+Hãy sử dụng các nút Trợ Giúp trong từng phần của phần mềm để nhận được hỗ trợ chi tiết hơn về từng chức năng.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABx2AAAcdgAAAAAAAAAA
+        AAD01akC8MyhFvfdsRb/88YS/+/CE//vwxP/8MQT/+7AE//blRP/2aIT/+a+E//wwxP/8cUT/+SyE//d
+        pxP/36oT/9+pE//fqRP/36kT/9+pE//fqRP/36kT/9+pE//hqhL006UW782iFvbTpQHyz6MA8c6jAAAA
+        AAAAAAAAAAAAAO/MoRDyz6TF7Mme5ufEmeroxZrp6cab6unGm+rpxpzq6Mql6uvLourrx5vq6MSa6ujE
+        merpyJ/p6sqi6unJoerpyaHq6cmh6unJoerpyaHq6cmh6unJoerqyaHp6cmh6u7MouPyzqPI782iD/HO
+        owDxzqMBAAAAAAAAAAAAAAAAmXBJBv///wOKYTuLgVYx/4FXMft9Ui//fE8p/3tWN/9dntz/laap/6h5
+        Qv97UzH/gVQs/4dsU/6TlZP/kpGM/5KSjf+Sko3/kpKN/5KSjf+Sko3/kpKN/5KSjfyRkY3/lZSOrf//
+        3QaxpJMF/9ilAPHOowAAAAAAAAAAAAAAAAB0SSQFdEkkAHRJJH90SST/dUol+pFpPf6cdET+mnZK/oud
+        of6toIH+kWU1/m9FIv51SCL+d1Ex/IaJiPyHi4v+h4qK/oeLiv6Hi4r+hoqK/oaKiv6Hi4r+h4uK/IeL
+        iv+GioregYaICBNBbwDFspkC8c6jAfHOowHxzqMB8c6jAHlOKQVvRB8AeU4pgHZLJv99Uyz7t5Nd/6F7
+        S/+ddUb/onI8/5RnOP93TCj/eE0n/3hNKP93SiT+hn51/IqPkP+JjIr/ioyL/4mMi/+KjYv/jI6M/4mM
+        i/+KjIv/iYyL/omMi/+KjYs7ioyLAIqMiwMAAAAAAAAAAAAAAAAAAAAAd0wnBHdMJwB4TSh+dkom/31T
+        LPuzjlr/eE0o/29DIf9xRyX/ckck/3dMJ/93TCf/d00p/3ZHIP+AbFr8ipGS/4mLif+JjIv/hoqK/5WT
+        jv+on5L/hYmK/4qNi/+JjIv7iYyL/46QjIX///8B3sGeFfHOoxHxzqMS8c6jEPHOowF3TCcEd0wnAHdM
+        J2R3TCf/dUol+6eBUP+cdUf/c0gk/3lOKf94TSj/d0wo/3dMJ/93TSj/dkki/3tbPvyKjo7+iYuK/4mM
+        i/+JjIv/io2L/4yOjP+JjIv/ioyL/4qNi/+FiYr/oJuQ9vXRpOzwzaPu8c6j7fHOo/PxzqPa8c6jEXdM
+        JwJ3TCcAd0wnIHdMJ/R2Syb/eE0o/X5TLf92Syb/d0wn/3ZMKP94TCX/dkwo/3dMJ/93TCb/d04q/YiG
+        gv2LkJH/h4uK/4eLi/+Hi4v/h4qK/4eLi/+Hi4v/iIuL/4aKiv+KjYv+5ceg/vTQpP/wzqP+8c6j//HO
+        o+rxzqMTd0wnAHdMJwN3TCcAd0wne3dMJ/93TCf8dUom+3dMJ/t3TCb7eksi/nNOLv56SyL+eU4o/3lP
+        K/94SyP+gHFi/YOFhP+Pj4v/kJGN/5CQjf+QkY3/kJCN/5CQjf+QkI3/kZGN/4qNi/7PuJv799Kk/vDN
+        o/3xzqP/8c6j6fHOoxN3TCcAd0wnAHdMJwF3SycAd0wneXdMJ/l3TCf/dkwo/npMI/9MXnf8Jmy8/ktd
+        dvxxQhr+bUMf/25DHv95Tyv9uZZx/O3MpP/pyaH/6smh/+rKof/qyqH/6sqh/+rKof/qyqH/6cmh/+3L
+        ov/yzqP/8c6j/vHOo//xzqPq8c6jE3dMJwB3TCcAd0wnAHdMJwN3TCcAd0wnH3ZMKWd5TSaAbkosfyJo
+        ufMea8L/Kmy4/bCMaP+1jWT+wJtz/OO/lf341an/88+j//PPo//zz6P/88+j//PPo//zz6P/88+j//PP
+        o//zz6P/8s+j//HOo//xzqP+8c6j//HOo+rxzqMTAAAAAHdMJwB3TCcAd0wnAHdMJwNzVDEARJPfAj2M
+        2QA/peUoSIzP81GV1v9Njs382Mq0/f/bp//41qv/9NGm/+/Nov/xzqP/8c6j//HOo//xzqP/8c6j//HO
+        o//xzqP/8c6j//DOo//xzqP/8c6j//HOo/7xzqP/8c6j6vHOoxMAAAAAAAAAAKuGVACshlQAo4hgAXiS
+        pARfoNoAX57Xd1+g2v9hpN/+YqTe/1+k4v9Qn+j+p7nF/PnSo//vzaP/8c6j//HOo//xzqP/8c6j//HO
+        o//xzqP/8c6j//HOo//xzqP/8c6j//HOo//xzqP/8c6j/vHOo//xzqPq8c6jEwAAAAB3TCcAdkwnAMOd
+        XgBTTFID7XwABJGOexteodzlX6Db/1ih5P1+nLD/r5dv/5eZjP+PnZ/+4L2P/vDMoP/wzaP/8c6j//DN
+        ov/wzaL/8M2i//DNov/wzaL/8M2i//DNov/wzaL/8M2i//DNov/xzqP+8c6j//HOo+rxzqMTAAAAAAAA
+        AAC6lmABroRFAABp/wG9ll64t5xx+GOh1/lcouL/XqDc/2Og1f93nrv/ipuh/6Cciv++onb/yKRw//bT
+        qP/xzqT/9dOo//bTqf/206n/9tOp//bTqf/206n/9tOp//bTqf/206n/9tOp//HOo/7xzqP/8c6j6vHO
+        oxMAAAAAd0wnAKiCUQKabzgAgFYsVryYZf3f3NX/aafe/V2a0f9epeT/XKPk/1qh4f9ToOb/Y6nq/+Pk
+        4f+7mGX/zKZ8/fHPpP/TsH//0a18/9Kuff/Rrn3/0a59/9Guff/Rrn3/0q59/9GtfP/UsH//78yg/vLP
+        pP/xzqPq8c6jEwAAAAB3TCcBXC4QAGI4IAp6TyfjuZdm/+bi2/x8ZVL+dE8v/3BkWv9hmcv/Xqfp/12h
+        3v9pqeL+5OPe/rWSX/99Uiz968ed/tSxf//QrHr/0a18/9Gte//RrXv/0a17/9Gte//RrXz/0Kx7/9Ov
+        fv/vzKD+8s+k//HOo+rxzqMTAAAAAHdMJwCWbkEBe00fAHdLJku0j1vq6+TX/49qSfxvQBj/fEof/3ZX
+        PP9pjq//V5TL/36p0P3q4dP+t5Je/86pf/300ab/+teu//vYr//72K//+9iv//vYr//72K//+9iv//vY
+        r//72K//+teu//LPpP7xzqP/8c6j6vHOoxMAAAAAAAAAALqWYAC6lmAErYE/ALGITJHZx6r/2dHM+HhN
+        KP5tQBr/bz8V/247EP92UjP+2dHL/NTBov3LpXD//Nqw/+7Ln//Tr37/0Kx7/9GtfP/RrXv/0a17/9Gt
+        e//RrXv/0a18/9Cse//Tr37/78yg/vLPpP/xzqPq8c6jEwAAAAB3TCcAmHFDAL2aYwLkvW0At5FZIbmV
+        YOzn3s7/5+Ph+bqnlfyynYn+uqeX/Ofi3frm28r/uZVe9enFmfnyz6X/7sug/9Ovfv/QrHv/0a18/9Gt
+        e//RrXv/0a17/9Gte//RrXz/0Kx7/9Ovfv/vzKD+8s+k//HOo+rxzqMTAAAAAAAAAAC6lmAAs4tOALaQ
+        VgKwhUUAt5FXRbmVYPPXxKb/7+nf/vPw6f/v6d/+1sOl/7iTXfLEn2le9dKo5PDNov/yz6T++teu//vY
+        r//72K//+9iv//vYr//72K//+9iv//vYr//72K//+teu//LPpP7xzqP/8c6j6vHOoxMAAAAAAAAAALmV
+        XwC6lmAAuZVeALaPVQKugkEAto9WI7OLT524lF3fvJpn7biUXd+zi1CgsIpPIf/kwA3wzaLv8s+k/+/M
+        oP7Tr37/0Kx7/9GtfP/RrXv/0a17/9Gte//RrXv/0a18/9Cse//Tr37/78yg/vLPpP/xzqPq8c6jEwAA
+        AAAAAAAAAAAAALqWYAC6lmAAupZgALqWYAK3kVkBr4RDAK6CQQatgD4RroJBBv///wD927MA68ebFPHO
+        o+7yz6T/78yg/tOvfv/QrHv/0a18/9Gte//RrXv/0a17/9Gte//RrXz/0Kx7/9Ovfv/vzKD+8s+k//HO
+        o+rxzqMTAAAAAAAAAAAAAAAAAAAAALqWYAC6lmAAupVfALqWXwK7l2EDz7mWAMergQDQuZYAyKVyBf//
+        4QDyz6QR8c6j7vHOo//yz6T++teu//vYr//72K//+9iv//vYr//72K//+9iv//vYr//72K//+teu//LP
+        pP7xzqP/8c6j6vHOoxMAAAAAAAAAAAAAAAAAAAAAAAAAALqWXwC6lmAAupZgALqWYAC6lmABupZgAbqW
+        YAHwzaEB8c6jAPHOoxHxzqPu8s+k/+/MoP7Tr37/0Kx7/9GtfP/RrXv/0a17/9Gte//RrXv/0a18/9Cs
+        e//Tr37/78yg/vLPpP/xzqPq8c6jEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAPHOowHxzqMA8c6jEfHOo+7yz6T/78yg/tSwf//RrXz/0q59/9GtfP/RrXv/0a17/9Gt
+        fP/Srn3/0a18/9Swf//vzKD+8s+k//HOo+rxzqMTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA8c6jAfHOowDxzqMR8c6j7vHOo//xzqP+9tOp//bTqf/206n/+9iv//vY
+        r//72K//+9iv//bTqf/206n/9tOp//HOo/7xzqP/8c6j6fHOoxMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADxzqMB8c6jAPHOoxHxzqPu8c6j//HOo/7wzaL/8c6j/+7L
+        n//Tr37/0K17/9Cte//Tr37/7suf//HOo//wzaL/8c6j/vHOo//xzqPn8c6jEwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPHOowHxzqMA8c6jEfHOo+3xzqP/8c6j/fHO
+        o/7yz6T+78yg/tOwf/7RrXz+0a18/tOwf/7vzKD+8s+k/vHOo/7xzqP88c6j//HOo+nxzqMSAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8c6jAfHOowDxzqMR8c6j7vHO
+        o//xzqP+8c6j//HOo//xzqP/9tOp//bTqf/206n/9tOp//HOo//xzqP/8c6j/vHOo//xzqP98c6jZvHO
+        owAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADxzqMB8c6jAPHO
+        oxDxzqPa8c6j7vHOo+nxzqPq8c6j6vHOo+rwzaLq8M2i6vDNourwzaLq8c6j6vHOo+nxzqPs8c6j2/HO
+        oz3xzqMA8c6jAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPHO
+        owDxzqMA8c6jAfHOoxHxzqMT8c6jE/HOoxPxzqMT8c6jE/HOoxPxzqMT8c6jE/HOoxPxzqMT8c6jEvHO
+        oxTxzqML8c6jAPHOowPxzqMAAAAAFwAAABcAAAAXQAAAIEAAAC9AAAAAQAAAAEAAAAAgAAAAEAAAAEgA
+        AAChAAAA0gAAAIAAAADQAAAAkAAAAKAAAACQAAAAyAAAAIgAAADUAAAA6gAAAPSEAAD6JAAA/QQAAP/0
+        AAD/9AAA//QAAP/0AAD/9AAB//QAAv/0AAQ=
+</value>
+  </data>
+</root>
